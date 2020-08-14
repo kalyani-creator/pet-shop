@@ -19,7 +19,7 @@ App = {
         petsRow.append(petTemplate.html());
       }
     });
-
+console.log("change")
     return await App.initWeb3();
   },
 
